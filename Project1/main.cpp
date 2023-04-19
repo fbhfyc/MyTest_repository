@@ -1,10 +1,10 @@
 #include "base.h"
-#include "CMyVector.h"
+#include "test_all.h"
+
 
 int main() {
-    CMyVector vv;
-    vv.vector_find(2);
-  
+
+    vec_test_find();
 
     return 0;
 }

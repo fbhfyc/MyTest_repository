@@ -3,9 +3,13 @@
 class CMyVector
 {
 public:
-	void vector_find(int& a);
-
+	void myvector_find(int a);
+	void myvector_push_back(int a);
+	size_t myvector_size()
+	{
+		return m_V.size();
+	}
 private:
-	vector<int> _T;
+	vector<int>  m_V;
 };
 

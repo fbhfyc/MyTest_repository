@@ -1,17 +1,22 @@
 #include "CMyVector.h"
 
-void CMyVector::vector_find(int& a)
+void CMyVector::myvector_find(int a)
 {
-    vector<int> vec = { 1, 2, 3, 4, 5 };
+    
 
     // 在vector中查找元素2
-    auto it = find(vec.begin(), vec.end(), 2);
+    auto it = find(m_V.begin(), m_V.end(), 2);
 
     // 判断是否找到
-    if (it != vec.end()) {
-        cout << "找到了，位置为：" << it - vec.begin() << endl;
+    if (it != m_V.end()) {
+        cout << "找到了，位置为：" << it - m_V.begin() << endl;
     }
     else {
         cout << "没找到！" << endl;
     }
+}
+
+void CMyVector::myvector_push_back(int a)
+{
+    m_V.push_back(a);
 }
