@@ -1,10 +1,7 @@
-#include <iostream>
-#include <vector>
-//#include <algorithm>
+#include "CMyVector.h"
 
-using namespace std;
-
-int main() {
+void CMyVector::vector_find(int& a)
+{
     vector<int> vec = { 1, 2, 3, 4, 5 };
 
     // 在vector中查找元素2
@@ -17,7 +14,4 @@ int main() {
     else {
         cout << "没找到！" << endl;
     }
-    //fdsfs
-
-    return 0;
 }

@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CMyVector.cpp" />
+    <ClCompile Include="vector.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />
+    <ClInclude Include="CMyVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

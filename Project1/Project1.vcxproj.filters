@@ -18,9 +18,18 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyVector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyVector.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
