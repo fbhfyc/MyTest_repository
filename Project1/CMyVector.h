@@ -9,6 +9,7 @@ public:
 	{
 		return m_V.size();
 	}
+	void myvector_popback();
 private:
 	vector<int>  m_V;
 };

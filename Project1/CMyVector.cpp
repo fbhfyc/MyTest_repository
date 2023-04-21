@@ -20,3 +20,13 @@ void CMyVector::myvector_push_back(int a)
 {
     m_V.push_back(a);
 }
+
+void CMyVector::myvector_popback()
+{
+    if (m_V.size())
+        m_V.pop_back();
+    else {
+        throw  std::string(" vector is empty");
+    }
+       
+}
