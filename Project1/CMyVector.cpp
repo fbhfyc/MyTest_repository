@@ -30,3 +30,8 @@ void CMyVector::myvector_popback()
     }
        
 }
+
+void CMyVector::mySort()
+{
+    sort(m_V.begin(),m_V.end());
+}

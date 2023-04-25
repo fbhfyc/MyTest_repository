@@ -9,7 +9,16 @@ public:
 	{
 		return m_V.size();
 	}
+	size_t myvector_capacity()
+	{
+		return m_V.capacity();
+	}
 	void myvector_popback();
+	void mySort();
+	vector<int> getV()
+	{
+		return m_V;
+	}
 private:
 	vector<int>  m_V;
 };

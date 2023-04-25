@@ -18,3 +18,12 @@ CMyVector vv;
         }
         
     }
+
+    void vec_test_mySort()
+    {
+        vv.myvector_push_back(132);
+        vv.myvector_push_back(1324);
+        vv.myvector_push_back(1322);
+        vv.myvector_push_back(13);
+        vv.mySort();
+    }
