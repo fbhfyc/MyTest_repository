@@ -1,6 +1,6 @@
 #include "base.h"
 #include "test_all.h"
-
+////
 //  vector test
 // vec_test_find();
 //vec_test_popback();
@@ -56,11 +56,27 @@ struct MyString {
     }
 };
 
+class CA {
+public:
+    int fun1() {
+        return m_i;
+    }
+    int m_i;
+};
+
 int main() {
    
-    unique_ptr<int> p1{ new int(543)};
-    unique_ptr<MyString> p2{ new MyString("2") };
-    unique_ptr<MyString> p3{ new MyString("3") };
-    cout << *p1 <<endl;
+    stack<int> ss;
+    queue<int> q;
+    priority_queue<int> pq;
+    set<int> s;
+    
+    CA ca;
+    cout << sizeof(ca) << endl;
+
+    unique_ptr<MyString> p1 = std::make_unique<MyString>("first string");
+    //unique_ptr<MyString> p2 = std::make_unique<MyString>("jkjkj");
+    p1.reset(new MyString("reset new"));
+    cout << p1->getStr();
     return 0; 
 } 
