@@ -1,0 +1,2 @@
+[2023-04-28 14:22:20.822] [LoggerName2] [info] test spdlog::get(logger_name)
+[2023-04-28 14:24:54.845] [LoggerName2] [info] a=10000
